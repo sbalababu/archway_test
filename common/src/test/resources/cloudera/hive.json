@@ -1,0 +1,174 @@
+{
+  "items": [
+    {
+      "name": "hive-HIVESERVER2-416c6afa711d68cad913a0f197301a36",
+      "type": "HIVESERVER2",
+      "serviceRef": {
+        "clusterName": "cluster",
+        "serviceName": "hive"
+      },
+      "hostRef": {
+        "hostId": "dcca7d0f-3526-462f-98de-5e7c0d256321"
+      },
+      "roleUrl": "http://master1.jotunn.io:7180/cmf/roleRedirect/hive-HIVESERVER2-416c6afa711d68cad913a0f197301a36",
+      "roleState": "STARTED",
+      "healthSummary": "GOOD",
+      "healthChecks": [
+        {
+          "name": "HIVESERVER2_DOWNLOADED_RESOURCES_DIRECTORY_FREE_SPACE",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "HIVESERVER2_EXEC_LOCAL_SCRATCH_DIRECTORY_FREE_SPACE",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "HIVESERVER2_FILE_DESCRIPTOR",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "HIVESERVER2_HEAP_DUMP_DIRECTORY_FREE_SPACE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "HIVESERVER2_HOST_HEALTH",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "HIVESERVER2_LOG_DIRECTORY_FREE_SPACE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "HIVESERVER2_PAUSE_DURATION",
+          "summary": "NOT_AVAILABLE",
+          "suppressed": false
+        },
+        {
+          "name": "HIVESERVER2_SCM_HEALTH",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "HIVESERVER2_SWAP_MEMORY_USAGE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "HIVESERVER2_UNEXPECTED_EXITS",
+          "summary": "GOOD",
+          "suppressed": false
+        }
+      ],
+      "configStalenessStatus": "FRESH",
+      "maintenanceMode": false,
+      "maintenanceOwners": [
+      ],
+      "commissionState": "COMMISSIONED",
+      "roleConfigGroupRef": {
+        "roleConfigGroupName": "hive-HIVESERVER2-BASE"
+      },
+      "entityStatus": "GOOD_HEALTH"
+    },
+    {
+      "name": "hive-GATEWAY-416c6afa711d68cad913a0f197301a36",
+      "type": "GATEWAY",
+      "serviceRef": {
+        "clusterName": "cluster",
+        "serviceName": "hive"
+      },
+      "hostRef": {
+        "hostId": "dcca7d0f-3526-462f-98de-5e7c0d256321"
+      },
+      "roleUrl": "http://master1.jotunn.io:7180/cmf/roleRedirect/hive-GATEWAY-416c6afa711d68cad913a0f197301a36",
+      "roleState": "NA",
+      "healthSummary": "GOOD",
+      "healthChecks": [
+      ],
+      "configStalenessStatus": "FRESH",
+      "maintenanceMode": false,
+      "maintenanceOwners": [
+      ],
+      "commissionState": "COMMISSIONED",
+      "roleConfigGroupRef": {
+        "roleConfigGroupName": "hive-GATEWAY-BASE"
+      },
+      "entityStatus": "NONE"
+    },
+    {
+      "name": "hive-HIVEMETASTORE-416c6afa711d68cad913a0f197301a36",
+      "type": "HIVEMETASTORE",
+      "serviceRef": {
+        "clusterName": "cluster",
+        "serviceName": "hive"
+      },
+      "hostRef": {
+        "hostId": "dcca7d0f-3526-462f-98de-5e7c0d256321"
+      },
+      "roleUrl": "http://master1.jotunn.io:7180/cmf/roleRedirect/hive-HIVEMETASTORE-416c6afa711d68cad913a0f197301a36",
+      "roleState": "STARTED",
+      "healthSummary": "GOOD",
+      "healthChecks": [
+        {
+          "name": "HIVEMETASTORE_CANARY_HEALTH",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "HIVEMETASTORE_FILE_DESCRIPTOR",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "HIVEMETASTORE_HEAP_DUMP_DIRECTORY_FREE_SPACE",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "HIVEMETASTORE_HOST_HEALTH",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "HIVEMETASTORE_LOG_DIRECTORY_FREE_SPACE",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "HIVEMETASTORE_PAUSE_DURATION",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "HIVEMETASTORE_SCM_HEALTH",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "HIVEMETASTORE_SWAP_MEMORY_USAGE",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "HIVEMETASTORE_UNEXPECTED_EXITS",
+          "summary": "DISABLED",
+          "suppressed": false
+        }
+      ],
+      "configStalenessStatus": "FRESH",
+      "maintenanceMode": false,
+      "maintenanceOwners": [
+      ],
+      "commissionState": "COMMISSIONED",
+      "roleConfigGroupRef": {
+        "roleConfigGroupName": "hive-HIVEMETASTORE-BASE"
+      },
+      "entityStatus": "STARTED"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "items": [
+    {
+      "name": "impala-STATESTORE-416c6afa711d68cad913a0f197301a36",
+      "type": "STATESTORE",
+      "serviceRef": {
+        "clusterName": "cluster",
+        "serviceName": "impala"
+      },
+      "hostRef": {
+        "hostId": "dcca7d0f-3526-462f-98de-5e7c0d256321"
+      },
+      "roleUrl": "http://master1.jotunn.io:7180/cmf/roleRedirect/impala-STATESTORE-416c6afa711d68cad913a0f197301a36",
+      "roleState": "STARTED",
+      "healthSummary": "GOOD",
+      "healthChecks": [
+        {
+          "name": "STATESTORE_FILE_DESCRIPTOR",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "STATESTORE_HEAP_DUMP_DIRECTORY_FREE_SPACE",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "STATESTORE_HOST_HEALTH",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "STATESTORE_LOG_DIRECTORY_FREE_SPACE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "STATESTORE_MEMORY_RSS_HEALTH",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "STATESTORE_SCM_HEALTH",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "STATESTORE_SWAP_MEMORY_USAGE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "STATESTORE_UNEXPECTED_EXITS",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "STATESTORE_WEB_METRIC_COLLECTION",
+          "summary": "GOOD",
+          "suppressed": false
+        }
+      ],
+      "configStalenessStatus": "FRESH",
+      "maintenanceMode": false,
+      "maintenanceOwners": [
+      ],
+      "commissionState": "COMMISSIONED",
+      "roleConfigGroupRef": {
+        "roleConfigGroupName": "impala-STATESTORE-BASE"
+      },
+      "entityStatus": "GOOD_HEALTH"
+    },
+    {
+      "name": "impala-CATALOGSERVER-416c6afa711d68cad913a0f197301a36",
+      "type": "CATALOGSERVER",
+      "serviceRef": {
+        "clusterName": "cluster",
+        "serviceName": "impala"
+      },
+      "hostRef": {
+        "hostId": "dcca7d0f-3526-462f-98de-5e7c0d256321"
+      },
+      "roleUrl": "http://master1.jotunn.io:7180/cmf/roleRedirect/impala-CATALOGSERVER-416c6afa711d68cad913a0f197301a36",
+      "roleState": "STARTED",
+      "healthSummary": "GOOD",
+      "healthChecks": [
+        {
+          "name": "CATALOGSERVER_CONNECTIVITY",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "CATALOGSERVER_FILE_DESCRIPTOR",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "CATALOGSERVER_HEAP_DUMP_DIRECTORY_FREE_SPACE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "CATALOGSERVER_HOST_HEALTH",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "CATALOGSERVER_LOG_DIRECTORY_FREE_SPACE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "CATALOGSERVER_MEMORY_RSS_HEALTH",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "CATALOGSERVER_SCM_HEALTH",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "CATALOGSERVER_SWAP_MEMORY_USAGE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "CATALOGSERVER_UNEXPECTED_EXITS",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "CATALOGSERVER_WEB_METRIC_COLLECTION",
+          "summary": "GOOD",
+          "suppressed": false
+        }
+      ],
+      "configStalenessStatus": "FRESH",
+      "maintenanceMode": false,
+      "maintenanceOwners": [
+      ],
+      "commissionState": "COMMISSIONED",
+      "roleConfigGroupRef": {
+        "roleConfigGroupName": "impala-CATALOGSERVER-BASE"
+      },
+      "entityStatus": "GOOD_HEALTH"
+    },
+    {
+      "name": "impala-IMPALAD-416c6afa711d68cad913a0f197301a36",
+      "type": "IMPALAD",
+      "serviceRef": {
+        "clusterName": "cluster",
+        "serviceName": "impala"
+      },
+      "hostRef": {
+        "hostId": "dcca7d0f-3526-462f-98de-5e7c0d256321"
+      },
+      "roleUrl": "http://master1.jotunn.io:7180/cmf/roleRedirect/impala-IMPALAD-416c6afa711d68cad913a0f197301a36",
+      "roleState": "STARTED",
+      "healthSummary": "GOOD_HEALTH",
+      "healthChecks": [
+        {
+          "name": "IMPALAD_CONNECTIVITY",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_FILE_DESCRIPTOR",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_HEAP_DUMP_DIRECTORY_FREE_SPACE",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_HOST_HEALTH",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_LOG_DIRECTORY_FREE_SPACE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_MEMORY_RSS_HEALTH",
+          "summary": "DISABLED",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_QUERY_MONITORING_STATUS",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_READY_STATUS",
+          "summary": "GOOD_HEALTH",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_SCM_HEALTH",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_SCRATCH_DIRECTORIES_FREE_SPACE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_SWAP_MEMORY_USAGE",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_UNEXPECTED_EXITS",
+          "summary": "GOOD",
+          "suppressed": false
+        },
+        {
+          "name": "IMPALAD_WEB_METRIC_COLLECTION",
+          "summary": "GOOD",
+          "suppressed": false
+        }
+      ],
+      "configStalenessStatus": "STALE",
+      "maintenanceMode": false,
+      "maintenanceOwners": [
+      ],
+      "commissionState": "COMMISSIONED",
+      "roleConfigGroupRef": {
+        "roleConfigGroupName": "impala-IMPALAD-BASE"
+      },
+      "entityStatus": "GOOD_HEALTH"
+    }
+  ]
+}
