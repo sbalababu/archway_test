@@ -1,5 +1,22 @@
-language: scala
-jdk:
-- openjdk8
-scala:
-- 2.12
+language: generic
+sudo: true
+
+services:
+  - docker
+
+stages:
+  - test-ui
+
+jobs:
+  include:
+    - stage: test-ui
+      name: "Build, Test and Package UI"
+      script:
+        - docker pull node:9
+      artifacts:
+        paths:
+          - dist/**
+      script:
+        - npm i -g typescript
+        - npm i
+        - npm run-script prepare
